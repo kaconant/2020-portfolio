@@ -1,11 +1,69 @@
 <script>
 export default {
-    name: 'home'
+  name: 'home'
 };
 </script>
 
 <template>
-	<div class="page">
-        Home
+	<div id="home">
+		<div class="page-title">who me?</div>
+		<b-card no-body class="overflow-hidden">
+			<b-row no-gutters>
+			<b-col md="6" style="align-self: center;">
+				<b-card-img :src="require(`../assets/about/krissyRainbow.jpeg`)" alt="Rainbow Krissy" class="rounded-0"/>
+			</b-col>
+			<b-col md="6">
+				<b-card-body>
+					<b-card-text>
+						My interest in web development started during the wild west days of MySpace, with a strong, pre-teen desire to implement the coolest glitter cursor effects you could hack together with HTML and CSS (anyone else shocked that I enjoy UI?).
+					</b-card-text>
+					<b-card-text>
+						After holding client facing positions within onboarding, sales, and marketing for over 10 years, I decided to try my hand at web development professionally in 2017. Combined with my previous work experience, I believe that I offer a unique perspective on how to build DRY, responsive, and durable code solutions that satisfies customers from the sales funnel to customer retention.
+					</b-card-text>
+					<b-card-text>
+						Currently, I'm a UI web developer in the SaaS space who works on building new features, migrating and refactoring our codebase from Knockout.js to Vue.js, and fixing bugs that irritate our members. I generally work within the JavaScript ecosystem (Vue.js, React, Vanilla, Knockout.js) but have been using more C# over the last year.
+					</b-card-text>
+					<b-card-text>
+						I have a lovely, chonky cat named Tallulah who has an adventurer's spirit while simultatenously suffers from agoraphobia.
+					</b-card-text>
+				</b-card-body>
+			</b-col>
+			</b-row>
+		</b-card>
 	</div>
 </template>
+
+<style scoped>
+#home {
+	text-align: -webkit-center;
+}
+
+.page-title {
+    font-family: "VT323", monospace;
+    font-size: 60px;
+    text-align: center;
+    color: #007bff;
+    -webkit-text-stroke: 1px;
+	margin-top: 20px;
+}
+
+img {
+	border-radius: .25rem !important;
+	margin: 20px 0px;
+	max-width: 450px;
+}
+
+.card {
+	background-color: #f2bfd7 !important;
+	border-radius: .25rem !important;
+	margin-top: 30px;
+	max-width: 1000px;
+	margin: 30px 0px 20px 0px;
+}
+
+.card-text {
+	font-family: monospace;
+	font-size: 16px;
+	text-align: justify;
+}
+</style>

@@ -1,5 +1,5 @@
 {
-  "name": "vue-portfolio",
+  "name": "krissy-conant-2020-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -35,8 +35,7 @@
     },
     "extends": [
       "plugin:vue/essential",
-      "eslint:recommended",
-      "@vue/prettier"
+      "eslint:recommended"
     ],
     "parserOptions": {
       "parser": "babel-eslint"

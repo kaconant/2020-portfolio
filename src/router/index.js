@@ -4,7 +4,7 @@ import Layout from "../layout/Layout.vue";
 
 // Pages
 import Home from "../components/Home.vue";
-import About from "../components/About.vue";
+import Contact from "../components/Contact.vue";
 import Projects from "../components/Projects.vue";
 import NotFound from "../components/NotFound.vue";
 
@@ -31,8 +31,8 @@ export default new Router({
         },
         {
           path: "about",
-          name: "about",
-          component: About
+          name: "contact",
+          component: Contact
         },
         {
           path: "projects",

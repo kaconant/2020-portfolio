@@ -41,18 +41,55 @@ export default {
   font-size: 75px;
 }
 
+
 /* Media Queries */
-@media (max-width: 660px) {
-  #hero-image {
+@media screen and (max-width:320px) {
+  #title-image {
     -webkit-text-stroke: 1px #836f6c;
   }
-
   #title {
     font-size: 70px;
   }
   #description {
     font-size: 50px;
   }
+}
+
+@media screen and (min-width:321px) and (max-width:639px) {
+  #title-image {
+    -webkit-text-stroke: 1px #836f6c;
+  }
+  #title {
+    font-size: 70px;
+  }
+  #description {
+    font-size: 50px;
+  }
+}
+@media screen and (min-width:640px) and (max-width:959px) {
+	#page {
+    	margin: 75px 150px;
+	}
+}
+@media screen and (min-width:960px) and (max-width:1279px) {
+	#page {
+    	margin: 75px 200px;
+	}
+}
+@media screen and (min-width:1280px) and (max-width:1599px) {
+	#page {
+    	margin: 100px 300px;
+	}
+}
+@media screen and (min-width:1600px) {
+	#page {
+    	margin: 100px 400px;
+	}
+}
+@media screen and (min-width:1920px) {
+	#page {
+    	margin: 100px 400px;
+	}
 }
 /* End of Media Queries */
 </style>
