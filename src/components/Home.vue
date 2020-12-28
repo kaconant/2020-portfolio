@@ -40,7 +40,7 @@ export default {
 
 .page-title {
     font-family: "VT323", monospace;
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
     color: #007bff;
     -webkit-text-stroke: 1px;
@@ -58,7 +58,7 @@ img {
 	border-radius: .25rem !important;
 	margin-top: 30px;
 	max-width: 1000px;
-	margin: 30px 0px 20px 0px;
+	margin: 30px 10px 20px;
 }
 
 .card-text {

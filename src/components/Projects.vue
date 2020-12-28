@@ -65,7 +65,7 @@ export default {
 
 .page-title {
     font-family: "VT323", monospace;
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
     color: #007bff;
     margin-top: 20px;

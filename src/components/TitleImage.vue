@@ -27,7 +27,7 @@ export default {
   padding: 20px;
   color: #000;
   background-image: url("../assets/layout/vaporWaveBackground.jpg");
-  border: 1px solid rgba(91, 88, 107, 0.5);
+  border: 5px solid rgba(91, 88, 107, 0.5);
   background-position: center;
   max-width: 100%;
   height: auto !important;
@@ -68,27 +68,27 @@ export default {
 }
 @media screen and (min-width:640px) and (max-width:959px) {
 	#page {
-    	margin: 75px 150px;
+    margin: 75px 150px;
 	}
 }
 @media screen and (min-width:960px) and (max-width:1279px) {
 	#page {
-    	margin: 75px 200px;
+    margin: 75px 200px;
 	}
 }
 @media screen and (min-width:1280px) and (max-width:1599px) {
 	#page {
-    	margin: 100px 300px;
+    margin: 100px 300px;
 	}
 }
 @media screen and (min-width:1600px) {
 	#page {
-    	margin: 100px 400px;
+    margin: 100px 400px;
 	}
 }
 @media screen and (min-width:1920px) {
 	#page {
-    	margin: 100px 400px;
+    margin: 100px 400px;
 	}
 }
 /* End of Media Queries */
