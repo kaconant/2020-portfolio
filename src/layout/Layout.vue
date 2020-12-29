@@ -16,9 +16,10 @@ export default {
             titleName="hi, i'm Krissy"
             titleDescription="an ATL-based software developer"/>
         <marquee 
-            marqueDescription="♡ My day-to-day development skills include: JavaScript, Vue.js, Knockout (say-what), CSS/SCSS, Bootstrap, C#, Azure, & GIT. 
-            On occasion, I work with: React & Node.js.
-            I've been known to dabble with: PostgresSQL, Python, AWS, & Heroku. ♡♡"
+            marqueDescription="♡ My day-to-day development skills include JavaScript, Vue.js, Knockout (say-what), CSS/SCSS, Bootstrap, C#, Azure, & GIT. ♡
+            Occasionly, I work with React & Node.js. ♡
+            I've been known to dabble with PostgresSQL, Python, AWS, & Heroku. ♡
+            This website was inspired by my fascination and love of vaporwave & the pop genre. ♡"
             />
         <router-view></router-view>
 	</div>

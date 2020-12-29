@@ -15,10 +15,10 @@ export default {
 			<b-col md="6">
 				<b-card-body>
 					<b-card-text>
-						My interest in web development started during the wild west days of MySpace, with a strong, pre-teen desire to implement the coolest glitter cursor effects you could hack together with HTML and CSS (anyone else shocked that I enjoy UI?).
+						My interest in web development started during the wild west days of MySpace, with a strong, pre-teen desire to implement the coolest glitter cursor effects you could hack together with HTML and CSS.
 					</b-card-text>
 					<b-card-text>
-						After holding client facing positions within onboarding, sales, and marketing for over 10 years, I decided to try my hand at web development professionally in 2017. Combined with my previous work experience, I believe that I offer a unique perspective on how to build DRY, responsive, and durable code solutions that satisfies customers from the sales funnel to customer retention.
+						After working in client facing positions in onboarding, sales, and marketing for over 10 years, I decided to try my hand at web development professionally in 2017. I believe that I offer a unique perspective on how to build DRY, responsive, and durable code solutions that delights customers from the sales funnel through retention / churn efforts.
 					</b-card-text>
 					<b-card-text>
 						Currently, I'm a UI web developer in the SaaS space who works on building new features, migrating and refactoring our codebase from Knockout.js to Vue.js, and fixing bugs that irritate our members. I generally work within the JavaScript ecosystem (Vue.js, React, Vanilla, Knockout.js) but have been using more C# over the last year.
@@ -55,10 +55,10 @@ img {
 
 .card {
 	background-color: #f2bfd7 !important;
+	border: 2px solid rgba(91, 88, 107, 0.5);
 	border-radius: .25rem !important;
-	margin-top: 30px;
 	max-width: 1000px;
-	margin: 30px 10px 20px;
+	margin: 30px 10px 40px;
 }
 
 .card-text {

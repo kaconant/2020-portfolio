@@ -81,10 +81,11 @@ export default {
 .card {
     display: flex;
     flex: 1 0 40% !important;
-    margin: 30px !important;
+    margin: 40px !important;
     justify-content: center;
     background-color: #f2bfd7;
     color: #4c4444;
+    border: 2px solid rgba(91, 88, 107, 0.5);
 }
 
 .card-title {
@@ -104,6 +105,7 @@ export default {
     border-bottom-right-radius: 10px !important;
     border-bottom-left-radius: 100px !important;
     border-top-left-radius: 10px !important;
+    border: 1px solid rgba(91, 88, 107, 0.5);
 }
 
 .card-footer {

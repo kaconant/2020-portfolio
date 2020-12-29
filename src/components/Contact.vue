@@ -1,6 +1,11 @@
 <script>
 export default {
-    name: 'contact'
+    name: 'contact',
+    data () {
+        return {
+            publicPath: process.env.BASE_URL
+        }
+    }
 };
 </script>
 
@@ -13,7 +18,7 @@ export default {
                 <h3 class="contact-row">linkedin: <br/><b-link href="https://www.linkedin.com/in/krissy-conant/" target="_blank">krissy-conant</b-link></h3>
                 <h3 class="contact-row">github: <br/><b-link href="https://github.com/kaconant" target="_blank">kaconant</b-link></h3>
             </div>
-            <b-button :href="require(`../assets/contact/KrissyConantResume2020.png`)" variant="light" target="_blank">checkout my resume</b-button>
+            <b-button :href="`${publicPath}KrissyConantResume2020.pdf`" variant="light" download>checkout my resume</b-button>
         </b-card>
     </div>
 </template>
@@ -41,10 +46,21 @@ export default {
     align-items: center;
     background-color: #f2bfd7;
     margin-top: 30px;
+    border: 2px solid rgba(91, 88, 107, 0.5);
 }
 
 .contact-row {
     margin-bottom: 20px;
     color: #4c4444;
+    font-size: 25px;
+}
+
+.btn {
+    border: 1px solid rgba(91, 88, 107, 0.5);
+    border-top-right-radius: 100px !important;
+    border-bottom-right-radius: 10px !important;
+    border-bottom-left-radius: 100px !important;
+    border-top-left-radius: 10px !important;
+    width: 200px !important;
 }
 </style>

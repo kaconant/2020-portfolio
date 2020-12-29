@@ -32,4 +32,8 @@ body {
   font-size: 30px !important;
   justify-content: center;
 }
+
+.router-link-active {
+  color: #7d74d3!important;
+}
 </style>

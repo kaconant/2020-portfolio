@@ -27,7 +27,7 @@ export default {
   padding: 20px;
   color: #000;
   background-image: url("../assets/layout/vaporWaveBackground.jpg");
-  border: 5px solid rgba(91, 88, 107, 0.5);
+  border: 4px solid rgba(91, 88, 107, 0.5);
   background-position: center;
   max-width: 100%;
   height: auto !important;
