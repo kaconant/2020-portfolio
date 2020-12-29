@@ -24,35 +24,35 @@ export default {
 </template>
 
 <style scoped>
+
 #contact {
     font-family: monospace;
     font-size: 16px;
-    text-align: justify;
     text-align: -webkit-center;
-
+    text-align: -moz-center;
 }
 
 .page-title {
     font-family: "VT323", monospace;
     font-size: 50px;
     text-align: center;
+    -webkit-text-stroke: 1px;
     color: #007bff;
     margin-top: 20px;
-    -webkit-text-stroke: 1px;
 }
 
 .card {
+    background-color: #f2bfd7;
+    border: 2px solid rgba(91, 88, 107, 0.5);
+    margin-top: 30px;
     max-width: 500px;
     align-items: center;
-    background-color: #f2bfd7;
-    margin-top: 30px;
-    border: 2px solid rgba(91, 88, 107, 0.5);
 }
 
 .contact-row {
-    margin-bottom: 20px;
     color: #4c4444;
     font-size: 25px;
+    margin-bottom: 20px;
 }
 
 .btn {

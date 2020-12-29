@@ -67,9 +67,9 @@ export default {
     font-family: "VT323", monospace;
     font-size: 50px;
     text-align: center;
+    -webkit-text-stroke: 1px;
     color: #007bff;
     margin-top: 20px;
-    -webkit-text-stroke: 1px;
 }
 
 .card-deck {

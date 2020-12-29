@@ -28,5 +28,4 @@ export default {
   font-family: "VT323", monospace;
   font-size: 25px;
 }
-
 </style>

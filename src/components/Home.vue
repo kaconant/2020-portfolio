@@ -36,14 +36,15 @@ export default {
 <style scoped>
 #home {
 	text-align: -webkit-center;
+	text-align: -moz-center;
 }
 
 .page-title {
     font-family: "VT323", monospace;
     font-size: 50px;
     text-align: center;
+	-webkit-text-stroke: 1px;
     color: #007bff;
-    -webkit-text-stroke: 1px;
 	margin-top: 20px;
 }
 

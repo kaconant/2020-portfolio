@@ -41,7 +41,6 @@ export default {
   font-size: 75px;
 }
 
-
 /* Media Queries */
 @media screen and (max-width:320px) {
   #title-image {

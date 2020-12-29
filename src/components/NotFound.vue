@@ -13,6 +13,7 @@ export default {
 <style scoped>
 #not-found {
     text-align: -webkit-center;
+    text-align: -moz-center;
     background-color: #1D1928;
 }
 
