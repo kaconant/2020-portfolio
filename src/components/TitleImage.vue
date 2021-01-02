@@ -65,26 +65,31 @@ export default {
     font-size: 50px;
   }
 }
+
 @media screen and (min-width:640px) and (max-width:959px) {
 	#page {
     margin: 75px 150px;
 	}
 }
+
 @media screen and (min-width:960px) and (max-width:1279px) {
 	#page {
     margin: 75px 200px;
 	}
 }
+
 @media screen and (min-width:1280px) and (max-width:1599px) {
 	#page {
     margin: 100px 300px;
 	}
 }
+
 @media screen and (min-width:1600px) {
 	#page {
     margin: 100px 400px;
 	}
 }
+
 @media screen and (min-width:1920px) {
 	#page {
     margin: 100px 400px;

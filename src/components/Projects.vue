@@ -47,8 +47,8 @@ export default {
                 </b-card-body>
                 <template #footer>
                     <div class="btn-group">
-                        <b-button :href="Card.demo" variant="light">Demo</b-button>
-                        <b-button :href="Card.github" variant="light">GitHub</b-button>
+                        <b-button :href="Card.demo" variant="light" target="_blank">Demo</b-button>
+                        <b-button :href="Card.github" variant="light" target="_blank">GitHub</b-button>
                     </div>
                 </template>
             </b-card>
@@ -81,7 +81,7 @@ export default {
 .card {
     display: flex;
     flex: 1 0 40% !important;
-    margin: 40px !important;
+    margin: 40px !important;    
     justify-content: center;
     background-color: #f2bfd7;
     color: #4c4444;
@@ -111,5 +111,18 @@ export default {
 .card-footer {
     background-color: inherit;
     border-top: none;
+}
+
+/* Media Queries */
+@media screen and (max-width:320px) { 
+.card-deck {
+    margin: 0px 10px !important;
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:639px) {
+.card-deck {
+    margin: 0px 10px !important;
+    }
 }
 </style>
