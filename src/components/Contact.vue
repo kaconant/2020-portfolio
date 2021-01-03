@@ -44,7 +44,7 @@ export default {
 .card {
     background-color: #f2bfd7;
     border: 2px solid rgba(91, 88, 107, 0.5);
-    margin-top: 30px;
+    margin: 30px;
     max-width: 500px;
     align-items: center;
 }
@@ -53,6 +53,19 @@ export default {
     color: #4c4444;
     font-size: 25px;
     margin-bottom: 20px;
+}
+
+/* Media Queries */
+@media screen and (max-width:320px) { 
+.contact-row {
+    font-size: 20px;
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:639px) {
+.contact-row {
+    font-size: 20px;
+    }
 }
 
 .btn {
