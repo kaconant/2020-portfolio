@@ -80,6 +80,7 @@ export default {
     background-color: #f2bfd7;
     color: #4c4444;
     border: 2px solid rgba(91, 88, 107, 0.5);
+    max-width: 650px;
 }
 
 .card-title {
