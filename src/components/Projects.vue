@@ -18,12 +18,6 @@ let projectData = [{
     imageName: "memoryGame",
     demo: "https://vigilant-fermi-f504bc.netlify.com/",
     github: "https://github.com/kaconant/memory-game/"
-}, {
-    title: "Slopey Seconds",
-    details: "Slopey Seconds is a web application that uses Google Maps API, Powder Project API, and Open Weather API to search for specific ski / snowboarding trail names and allow users to review their public rating, trail length, elevation, and weather.",
-    imageName: "slopeySeconds",
-    demo: "http://www.slopeyseconds.com/",
-    github: "https://github.com/kaconant/slopey-seconds/"
 }];
 
 export default {

@@ -18,7 +18,7 @@ export default {
                 <h3 class="contact-row">linkedin: <br/><b-link href="https://www.linkedin.com/in/krissy-conant/" target="_blank">krissy-conant</b-link></h3>
                 <h3 class="contact-row">github: <br/><b-link href="https://github.com/kaconant" target="_blank">kaconant</b-link></h3>
             </div>
-            <b-button :href="`${publicPath}KrissyConantResume2020.pdf`" variant="light" download>checkout my resume</b-button>
+            <b-button :href="`${publicPath}KrissyConantResume2021.pdf`" variant="light" download>checkout my resume</b-button>
         </b-card>
     </div>
 </template>
